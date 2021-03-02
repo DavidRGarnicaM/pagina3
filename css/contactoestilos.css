@@ -1,0 +1,200 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cajacontacto
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(../img/contactofondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.cajacontacto h2
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    font-size: 35px;
+}
+.cajacontacto .titul
+{
+    margin-bottom: 15px;
+}
+
+/******************************************************************************************/
+.c1
+{
+    border: 4px groove BLUE;
+    border-radius: 20px;
+    background-color: rgba(15, 15, 37,0.8);
+    margin: 1%;
+    width: 60%;
+    min-width: 300px;  
+    height: auto;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+}
+.c1 .cajaizquierdosa
+{
+    width: 48%;
+    min-width: 215px;
+}
+.c1 .cajaizquierdosa img
+{
+    width: 100%;
+    height: auto;
+}
+
+.c1 .cajaderechosa
+{
+    width: 48%;
+    min-width: 215px;
+    text-align: justify;
+    padding: 10px;
+    
+}
+.c1 .cajaderechosa p 
+{
+    margin: 10px 0px;
+}
+
+/******************************************************************************************/
+.d2
+{
+    border: 5px groove BLUE;
+    background-color:rgba(15, 15, 37,0.8);
+    border-radius: 20px;
+    margin: 1%;
+    padding: 15px;
+    width: 35%;
+    min-width:  300px;
+    height: auto;
+    min-height: 450px;
+  
+}
+.d2 h2
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
+.d2 h2,
+.d2 input,
+.d2 textarea,
+.d2 button
+{
+    margin: 15px 0px;
+    padding: 10px;
+}
+.d2 input,
+.d2 textarea
+{
+    background-color: rgba(255,255,255, 0.75);
+    border: solid 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.d2 input:focus,
+.d2 textarea:focus
+{   
+ outline: none;
+}
+.d2 .cicon
+{
+    text-align: center;
+}
+.d2 i
+{
+    
+font-size: 50px;
+color: #25D366;
+background-color: white;
+border-radius: 65%;
+
+}
+
+.d2 input , .d2 textarea
+{
+    width: 100%;
+}
+.d2 textarea 
+{
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+.d2 button
+{
+    width: 100%;
+    background-color: #002855;
+    border: none ;
+    border-radius: 5px;
+    padding: 10px 0px;
+    color: white;
+}
+
+.d2 button:hover
+{
+    background-color: #05458e;
+}
+/******************************************************************************************/
+.cajaubicacion
+{
+    width: 100%;
+    height: auto;
+}
+.mapa
+{
+    border: 6px groove skyblue;
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    height: 350px;
+    max-height: 350px;
+    min-height: 350px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+
+@media screen and (max-width: 850px) 
+{
+    .c1
+    {
+        width: 80%;
+    }
+    .d2
+    {
+        width: 80%;
+
+    }
+
+}
+@media screen and (max-width: 600px) 
+{
+    .c1 .cajaizquierdosa, 
+    {
+        width: 70%;
+
+    }
+    .c1 .cajaderechosa
+    {
+        width: 90%;
+    }
+}
+
+
